@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sergey Kagal"
+    },
+    {
+      "id": 2,
+      "name": "Yana Kagal"
+    }
+  ]
+}

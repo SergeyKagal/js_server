@@ -1,0 +1,1 @@
+(()=>{console.log("Hello World!");for(var o,l=0;l<10;l++)o=l,console.log(o)})();
