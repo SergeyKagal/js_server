@@ -1,8 +1,3 @@
-console.log('Hello World!');
-const abc = 123;
+import './styles/styles.scss';
 
-const asd = (x) => console.log(x);
-
-for (let i = 0; i < 10; i++) {
-  asd(i);
-}
+console.log('test');

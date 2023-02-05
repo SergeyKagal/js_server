@@ -1,0 +1,66 @@
+@import url('../fonts/font-awesome-4.7.0/css/font-awesome.min.css');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.form__wrapper {
+  width: 100vw;
+  background-image: url('../images/wallppr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+  width: 80%;
+  background: #ffffff;
+  opacity: 0.6;
+  margin: 2em;
+  clip-path: polygon(4em 0%, 100% 0%, calc(100% - 3.65em) 100%, 0% 100%);
+}
+input {
+  display: block;
+  padding-left: 4em;
+  flex-grow: 1;
+  min-width: 100px;
+  background: transparent;
+  border: none;
+}
+button {
+  padding: 1em;
+  margin: 2px;
+  margin-right: 5px;
+  min-width: 190px;
+  background: #f32424;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  clip-path: polygon(4em 0%, 100% 0%, calc(100% - 4em) 100%, 0% 100%);
+}
+@media (max-width: 450px) {
+  input {
+    flex-grow: 0;
+    padding-left: 1em;
+  }
+  button,
+  form {
+    clip-path: none;
+  }
+  button {
+    min-width: 110px;
+    margin-right: 2px;
+  }
+}
+@media (max-width: 305px) {
+  button {
+    font-size: 0.7em;
+    min-width: 90px;
+    padding: 0.7em;
+  }
+}
