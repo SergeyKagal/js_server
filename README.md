@@ -1,15 +1,8 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Zickmes test
 
-This project has been created using **webpack-cli**, you can now run
-
+This project has been created using **webpack-cli**
+## to launch this project:
 ```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+1. Fork this repo
+2. npm install
+3. npm run server
