@@ -1,4 +1,5 @@
 import { formElement, inputElement } from './constants';
+import { request } from './request';
 import { dataValidate, error } from './validation';
 
 export const submitHandler = formElement.addEventListener('submit', (e) => {
@@ -7,6 +8,7 @@ export const submitHandler = formElement.addEventListener('submit', (e) => {
   const formData = new FormData(formElement).get('input');
   if (!error.state) {
     console.log('send request...');
+    request(formData);
     inputElement.value = '';
   }
 });
