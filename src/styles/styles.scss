@@ -57,6 +57,18 @@ button {
   text-transform: uppercase;
   clip-path: polygon(4em 0%, 100% 0%, calc(100% - 4em) 100%, 0% 100%);
 }
+.notify {
+  position: absolute;
+  padding: 1.5em;
+  text-align: center;
+  font-family: 'Arial';
+  left: 0;
+  transition: 0.3s;
+}
+.notify__hidden {
+  left: -100%;
+  transition: 0.3s;
+}
 @media (max-width: 450px) {
   input {
     flex-grow: 1;

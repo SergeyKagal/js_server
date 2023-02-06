@@ -1,4 +1,5 @@
 import { url } from './constants';
+import { notify } from './notify';
 
 export const request = async (data) => {
   const res = await fetch(url, {
@@ -6,4 +7,7 @@ export const request = async (data) => {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ num: data }),
   });
+  if (res.ok) {
+    notify();
+  }
 };
