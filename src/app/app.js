@@ -1,5 +1,5 @@
-import { formElement, inputElement, labelElement } from './constants';
-import { dataValidate, error, isDataValid } from './validation';
+import { formElement, inputElement } from './constants';
+import { dataValidate, error } from './validation';
 
 export const submitHandler = formElement.addEventListener('submit', (e) => {
   e.preventDefault();
