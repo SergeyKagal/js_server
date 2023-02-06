@@ -1,3 +1,5 @@
+import { inputHandler, submitHandler } from './app/app';
 import './styles/styles.scss';
 
-console.log('test');
+submitHandler;
+inputHandler;

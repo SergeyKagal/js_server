@@ -7,7 +7,14 @@
   <body>
     <div class="form__wrapper">
       <form>
-        <input type="text" placeholder="Ваш номер..." />
+        <input
+          type="text"
+          placeholder="Ваш номер..."
+          name="input"
+          maxlength="15"
+          id="input"
+        />
+        <label for="input" class="label__hidden">*Заполните это поле</label>
         <button><i class="fa fa-paper-plane"></i> заказать</button>
       </form>
     </div>
